@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+u {
+  text-decoration: underline;
+}
+
+body {
+  /* font-size: 16px; */
+}
+.cv-content {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 70%;
+  min-height: 1000px;
+  margin: 34px auto;
+  padding-bottom: 30px;
+}
+
+.cv-heading {
+  margin: 28px auto;
+  text-align: center;
+}
+.cv-heading h1 {
+  font-size: 26px;
+}
+
+.cv-body {
+  margin: 0 72px;
+  max-width: 660px;
+}
+.cv-body h3 {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+h1,
+h2,
+h3 {
+  color: rgba(9, 9, 121, 1);
+}
+hr {
+  width: 100%;
+  height: 3px;
+  background: #000;
+}
+
+.job-list {
+  text-align: justify;
+  line-height: 1.4;
+  display: block;
+  list-style-type: disc;
+  margin: 16px 0;
+  padding-left: 20px;
+}
+
+.job-title {
+  display: inline-block;
+}
+.job-title + span {
+  margin-left: 350px;
+  font-weight: 500;
+}
+
+.main {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.cv-left {
+  width: 30%;
+  background: rgba(9, 9, 121, 1);
+}
+
+.main-left {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.main-left .avatar {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.avatar:hover {
+  border-radius: 0;
+  outline: 10px solid #434cca;
+}
+.main-left {
+  padding: 20px;
+}
+.main-left .content,
+h2,
+a {
+  color: #fff;
+}
+.main-left a {
+  text-decoration: none;
+}
+.main-left .content span {
+  display: block;
+  margin-top: 10px;
+}
