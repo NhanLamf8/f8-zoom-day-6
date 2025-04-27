@@ -41,9 +41,9 @@ body {
   align-items: center;
   justify-content: center;
 }
-.wrapper * {
+/* .wrapper * {
   color: #000;
-}
+} */
 
 .cv-content {
   font-size: 14px;
@@ -132,7 +132,7 @@ hr {
 .main-left {
   padding: 10px;
 }
-.main-left .content,
+.main-left > .content,
 h2,
 a {
   color: #fff;
