@@ -133,8 +133,8 @@ hr {
   padding: 10px;
 }
 .main-left > .content,
-h2,
-a {
+.main-left > .content a,
+.main-left h2 {
   color: #fff;
 }
 .main-left a {
